@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden; /* Hide scrollbars */
+  }
+
+.homeNav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar{
+    background-color: #2c2323;
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.logo{
+    font-size: 2rem;
+    color:#fff;
+    font-family: 'Montserrat', sans-serif
+}
+.logo span{
+    color: cadetblue;
+}
+
+.nav-links{
+    display: flex;
+}
+.nav-links  li{
+    padding: 10px;
+    list-style: none;
+}
+.about, .home, .services, .projects, .contact{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+    padding: 10px;
+    background: #2c2323;
+
+}
+.nav-links a:hover,
+
+.active{
+    background-color: rgb(110, 109, 109);
+    border-radius: 2px;
+}
+
+
+
+.mobile-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar{
+        position: relative;
+        align-items: center;
+        display: grid;
+        
+    }
+    .logo{
+        position: absolute;
+        left:0;
+        font-size: 1.4rem;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        display: block;
+        list-style: none;
+        left: 0;
+    }
+    .about, .home, .services, .projects, .contact{
+        text-decoration: none;
+        list-style: none;
+        color: #fff;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        display: list-item;
+        padding: 25px;
+        transition: all .5s ease;
+    
+    }
+
+    .mobile-menu-icon{
+        display: block;
+        font-size: 30px;
+        top: 15px;
+        outline: none;
+        background: black;
+        color: #fff;
+    }
+   
+}
+

@@ -1,0 +1,128 @@
+.PageService{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-box{
+    display: flex;
+}
+
+.head{
+    margin-top: 5rem  ;
+    margin-bottom: 2.5rem  ;
+    font-size: 3rem;
+    text-transform: capitalize;
+}
+.head, .work{
+    font-family: 'Poppins', sans-serif;
+
+}
+.work{
+    font-size: 1.8rem;
+}
+.services-img{
+    height: auto;
+  border-bottom: 3px solid;
+   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.single{
+    max-width: 46%;
+
+}
+.multi{
+    max-width: 71%;
+}
+
+.box-2{
+    position: relative;
+    margin-left: -18%;
+}
+.desc{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .PageService{
+        text-align: center;
+        margin-top: 5rem;
+        margin-right: -128px;
+        margin-left: 3rem;
+    }
+
+    .services-img{
+        max-width: 60%;
+        border-bottom: 3px solid;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .head{
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    .work{
+        font-size: 1.8rem;
+    }
+
+    .desc{
+        font-size: 1.2rem;
+    }
+    .box-1, .box-2{
+        margin-bottom: 3rem;
+    }
+    
+    /* .box-2{
+        margin-left: 11%;
+        margin-right: -300px;
+        margin-top: 60px;
+    }
+    .PageService{
+        margin-left: 95px;
+    }
+   
+    
+   
+    .service-box {
+        display: contents;
+    }   
+    
+    
+    .head{
+        font-size: 2.5rem;
+        width: 100%;
+        margin-left: 50%;
+
+    }
+    .multiDesc{
+        width:100%;
+    }
+    .singleDesc{
+        width:155%;
+
+    }
+  
+    .work {
+        font-size: 2.2rem;
+    } */
+    
+
+}
+
+@media only screen and (max-width: 880px) {
+    .service-box{
+        display: contents;
+    }
+    .multi {
+        max-width: 42%;
+    }
+    .box-1, .box-2{
+        margin-bottom: 3rem;
+    }
+}
