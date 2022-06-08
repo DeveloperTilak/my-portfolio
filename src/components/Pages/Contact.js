@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className='contactPage'>
       <form onsubmit="sendEmail(); reset(); return false;">
-        <h3>Contact Us</h3>
+        <h2>Contact Us</h2>
         <input type="text" id="name" placeholder="Your Name" required />
         <input type="email" id="email" placeholder="Your Email " required />
         <input type="text" id="phone" placeholder="Your Number" required />
