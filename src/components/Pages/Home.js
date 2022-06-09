@@ -10,7 +10,7 @@ export default function Home() {
     <img className='homeImg' src={bg1} alt="img" />
     <div className='homePage'>
     <div className='title-left'>
-      <p className='para'>Hello, there</p>
+      <p className='para'>Hello! There</p>
       <h1 className='heading'>My Name is <span className='name'>Awdhesh</span></h1>
       <h2 className='heading1'>I'm Web Developer <span className='span1'> | FreeLancer.</span></h2>
        <p className='para1'>and I'm so extcited to learn to new</p>
