@@ -21,11 +21,7 @@ export default function About() {
                 <h1 className="head">About Me</h1>
                 <div className="aboutBox">
                     <div>
-                        <p className="desc aboutPara">Hello!! I'm Awdhesh  a FreeLancer, skilled in frontend web development.<br />
-
-                            I love to draw thinking and thought on the web. I can make Landing Page from scratch based on ReactJs frontend Framework
-                            and also know about backend, so I'm ready to explore
-                            both front-end and back-end web development.
+                        <p className="desc aboutPara">As a web developer, I specialize in a wide range of programming languages and frameworks, including HTML, CSS, JavaScript, React, and Node.js. With these tools at my disposal, I can build custom websites that are optimized for performance, security, and user experience.
                         </p>
                     </div>
                     <div>
