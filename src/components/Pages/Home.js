@@ -11,10 +11,10 @@ export default function Home() {
     <div className='homePage'>
     <div className='title-left'>
       <p className='para'>Hello! There</p>
-      <h1 className='heading'>My Name is <span className='name'>Awdhesh</span></h1>
-      <h2 className='heading1'>I'm Web Developer <span className='span1'> | FreeLancer.</span></h2>
-       <p className='para1'>and I'm so extcited to learn to new</p>
-       <p className='para1'> things by practically</p>
+      <h1 className='heading'>My Name is <span className='name'>Tilak</span></h1>
+      <h2 className='heading1'>I'm  MERN STACK Developer <span className='span1'> | FreeLancer.</span></h2>
+       {/* <p className='para1'>and I'm so extcited to learn to new</p>
+       <p className='para1'> things by practically</p> */}
        <p className='para2'>SCROLL <span className='span'>&#8595;</span></p>
 
     </div>
